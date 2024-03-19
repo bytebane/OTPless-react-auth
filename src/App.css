@@ -54,7 +54,7 @@ nav a.active {
 
 .key-value {
 	display: flex;
-	gap: 1.5rem;
+	gap: 2.5rem;
 	justify-content: space-between;
 	align-items: center;
 }
@@ -67,4 +67,8 @@ span.key {
 
 span.value {
 	font-size: 1.5em;
+	max-width: 600px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
 }
